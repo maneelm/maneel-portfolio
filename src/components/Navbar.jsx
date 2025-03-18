@@ -129,7 +129,7 @@ export const Navbar = ({ menuopen, setmenuopen }) => {
             </nav>
             
             {/* Mobile Menu Overlay */}
-            <div className={`fixed inset-0 z-30 bg-black/90 backdrop-blur-lg transition-all duration-300 md:hidden ${
+            {/* <div className={`fixed inset-0 z-30 bg-black/90 backdrop-blur-lg transition-all duration-300 md:hidden ${
                 menuopen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
             }`}>
                 <div className="flex flex-col items-center justify-center h-full space-y-8">
@@ -159,7 +159,7 @@ export const Navbar = ({ menuopen, setmenuopen }) => {
                         Resume
                     </a>
                 </div>
-            </div>
+            </div> */}
         </>
     );
 };

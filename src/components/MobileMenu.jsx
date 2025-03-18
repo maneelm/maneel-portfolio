@@ -27,7 +27,7 @@ export const MobilMenu = ({ menuopen, setmenuopen }) => {
 
             {/* Resume Link */}
             <a 
-                href="/src/assets/resume_maneel.pdf" 
+                href="/maneel-portfolio/resume_maneel.pdf"
                 className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
                     ${menuopen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}
                 `}
